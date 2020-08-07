@@ -1,0 +1,247 @@
+body{
+   overflow-x: hidden;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+
+.Menu{
+    background: rgb(248, 246, 108)  ;
+    margin-top: -108px;
+    padding: 9px;
+   text-align: right;
+   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+   margin-left: 500px;
+font-size: 20px;
+   margin: 40px;
+}
+
+.container{
+   position: relative;
+   width: 100%;
+   height: 100vh;
+  
+   
+   
+}
+.container .imagem{
+
+   position: relative;
+    top: 50px;
+   left: 0;
+   width: 500%; /* o valor para ficar bom é de 500% , poem quebra o*/
+   height: 80%;
+   animation: animate 10s linear infinite;
+   
+ 
+}
+.container .imagem .slider{
+  position: relative;
+   width: 20%;
+  height: 100%;
+   float: left;
+
+}
+.container .imagem .slider .Descrition{
+   position:absolute;
+   bottom: 60px;
+   left: 60px;
+   right: 60px;
+   padding: 30px;
+   background: rgba(15, 13, 13, 0.438);
+   box-sizing: border-box;
+ 
+}
+.container .imagem .slider .Descrition:hover{
+transition: 0.4s;
+}
+.container .imagem .slider .Descrition {
+   margin: 0;
+   padding: 30;
+   color: white ;
+   font-size: #fff;
+}
+.container .imagem .slider.slider01{
+   background: url("imagem/01.jpeg") no-repeat;
+   background-size:cover ;
+   background-position: center;
+}
+.container .imagem .slider.slider02{
+   background: url("imagem/02.png") no-repeat;
+   background-size:cover ;
+   background-position: center;
+}
+.container .imagem .slider.slider03{
+   background: url("imagem/03.jpeg") no-repeat;
+   background-size:cover ;
+   background-position: center;
+}
+.container .imagem .slider.slider04{
+   background: url("imagem/04.jpeg") no-repeat;
+   background-size:cover ;
+   background-position: center;
+}
+ @keyframes  animate{
+    0%{
+       left: 0;
+    }
+    20%{
+      left: 0;
+   }
+   25%{
+      left: -100%;
+   }
+   45%{
+      left: -100%;
+   }
+   50%{
+      left: -200%;
+   }
+   70%{
+      left: -200%;
+   }
+   75%{
+      left: -300%;
+   }
+   95%{
+      left: -300%;
+   }
+   100%{
+      left: -400%;
+   }
+
+ }
+ .boder{
+  margin-top: 70px;
+   border: blue 10px;
+   border-style: double;
+   margin-left: 50px;
+   margin-right: 50px;
+   
+}
+.box{
+    position: relative;
+    text-align: center;
+    min-height: 16vh;
+
+ }
+ .box .P0{
+  
+    font-size: 3em;
+
+ }
+ .box .L0{ 
+    background: url("https://i.pinimg.com/originals/f4/ec/77/f4ec77cf11c48addf0f2529613b9c3d9.png");
+    background-size:cover ;
+    background-position: center;
+   font-size: 20px;
+    list-style: none;
+    margin-left: 39%;
+    max-width:300px;
+ }
+
+
+ .box1{
+   float: right;
+    position: relative;
+    width: 30%;
+    min-height: 16vh;
+    
+  
+
+ }
+ .box1 .P01{
+    font-size: 3em;
+
+ }
+ .box1 .L01{
+  border: rgb(98, 187, 238) 2px solid;
+  background-image: linear-gradient(to right, rgba(0, 132, 255, 0.548), rgba(0, 255, 213, 0.363), rgba(0, 110, 255, 0.671));
+  border-radius:  20px 20px 20px 0px;
+   font-size: 20px;
+    max-width:300px;
+ }
+
+
+ .box2{
+   
+    
+   position: relative;
+   min-height: 16vh;
+   margin-left: 20%;
+   
+ 
+
+}
+.box2 .P02{
+   font-size: 3em;
+
+}
+.box2 .M01{
+   border: rgb(238, 226, 98) 2px solid;
+  background-image: linear-gradient(to right, rgba(255, 255, 0, 0.548), rgba(255, 255, 0, 0.363), rgba(255, 255, 0, 0.671));
+  border-radius:  20px 20px 20px 0px;
+   font-size: 20px;
+   max-width:300px;
+}
+
+
+.box3{
+   float: right;
+    position: relative;
+    width: 30%;
+    min-height: 16vh;
+    
+  
+
+ }
+ .box3 .P03{
+    font-size: 3em;
+
+ }
+ .C01{
+   list-style: url("https://img.icons8.com/color/26/000000/beer-bottle.png");
+   border-radius:  20px 20px 20px 0px;
+   font-size: 20px;
+   max-width:300px;
+ }
+
+
+ .box4{
+   
+    
+   position: relative;
+   min-height: 16vh;
+   margin-left: 20%;
+   
+ 
+
+}
+.box4 .P04{
+   font-size: 3em;
+
+}
+.D01{
+
+ 
+  list-style: url("https://img.icons8.com/color/26/000000/sausages.png");
+  border-radius:  20px 20px 20px 0px;
+   font-size: 20px;
+   max-width:300px;
+}
+.contato{
+   background-color: cornflowerblue;
+   padding: 20%;
+}
+
+
+
+
+  
